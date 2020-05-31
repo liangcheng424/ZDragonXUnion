@@ -1,0 +1,489 @@
+{
+	"version": "1.4",
+	"rules": [{
+		"desc": "帖子",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?(testnewgroup|newgroup).zhulong.com(\/m)?(\/\\d+_group_\\d+)?\/detail\\d+(.*)?",
+			"params": {
+				"tid": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?bbs.zhulong.com(\/m)?(\/\\d+_group_\\d+)?\/detail\\d+(.*)?",
+			"params": {
+				"tid": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?bbs.zhulong.com\/post\\?pid=\\d+",
+			"params": {
+				"tid": {
+					"key": "pid=",
+					"param": "pid=\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?testnewgroup.zhulong.com\/post\\?pid=\\d+",
+			"params": {
+				"tid": {
+					"key": "pid=",
+					"param": "pid=\\d+"
+				}
+			}
+		}],
+		"vcType": 0
+	}, {
+		"desc": "小组主页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?bbs.zhulong.com(\/m)?\/\\d+_group_\\d+(\\?(.*)?)?",
+			"params": {
+				"gid": {
+					"key": "group_",
+					"param": "group_\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?testnewgroup.zhulong.com(\/m)?\/\\d+_group_\\d+(\\?(.*)?)?",
+			"params": {
+				"gid": {
+					"key": "group_",
+					"param": "group_\\d+"
+				}
+			}
+		}],
+		"vcType": 1
+	}, {
+		"desc": "答疑专家页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?bbs.zhulong.com\/(m_)?dayi\/question\\d+",
+			"params": {
+				"questionID": {
+					"key": "question",
+					"param": "question\\d+"
+				}
+			}
+		}],
+		"vcType": 2
+	}, {
+		"desc": "新闻",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?news.zhulong.com(\/m)?\/read\/detail\\d+.(html|htm)",
+			"params": {
+				"newsID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?news.zhulong.com(\/m)?\/read\\d+.(html|htm)",
+			"params": {
+				"newsID": {
+					"key": "read",
+					"param": "read\\d+"
+				}
+			}
+		}],
+		"vcType": 3
+	}, {
+		"desc": "博文",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?blog.zhulong.com((\/u\\d+\/((m_)?blogdetail|(m_)?detail))|(\/blog\/detail))\\d+.html(\\?page=\\d+)?",
+			"params": {
+				"blogID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 4
+	}, {
+		"desc": "作品",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+\/(m_)?worksdetail\\d+.html(\\?from=.*)?",
+			"params": {
+				"uid": {
+					"key": "\/u",
+					"param": "\/u\\d+"
+				},
+				"workID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 5
+	}, {
+		"desc": "个人主页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+(\/(m_)?weibo)?",
+			"params": {
+				"uid": {
+					"key": "\/u",
+					"param": "\/u\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\/\\d+(\/(m_)?weibo)?",
+			"params": {
+				"uid": {
+					"key": "\/",
+					"param": "\/\\d+"
+				}
+			}
+		}],
+		"vcType": 6
+	}, {
+		"desc": "粉丝列表",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+\/(m_)?follower",
+			"params": {
+				"uid": {
+					"key": "\/u",
+					"param": "\/u\\d+"
+				}
+			}
+		}],
+		"vcType": 7
+	}, {
+		"desc": "微博",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+\/\\d+(.html)?",
+			"params": {
+				"wbID": {
+					"key": "\/",
+					"param": "\/\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+\/(m_)?detail\\d+(.html)?",
+			"params": {
+				"wbID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 8
+	}, {
+		"desc": "资料",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?down6.zhulong.com\/(mobile\/)?tech\/detailprof[\\da-zA-Z]+.htm",
+			"params": {
+				"profID": {
+					"key": "detailprof",
+					"param": "detailprof\\d+"
+				}
+			}
+		}],
+		"vcType": 9
+	}, {
+		"desc": "交换名片",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/u\\d+\/(m_)?cardplease\\d+.html",
+			"params": {
+				"cardID": {
+					"key": "cardplease",
+					"param": "cardplease\\d+"
+				}
+			}
+		}],
+		"vcType": 10
+	}, {
+		"desc": "悦见首页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?yuejian.zhulong.com\/(m_)?experts",
+			"params": {}
+		}],
+		"vcType": 11
+	}, {
+		"desc": "悦见专家主页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?yuejian.zhulong.com\/detail\\d+",
+			"params": {
+				"uid": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 12
+	}, {
+		"desc": "优搜库",
+		"rule": [{
+			"regex": "((http|https):\/\/www.zhulong.com|(http|https):\/\/m.zhulong.com)\/m?zt_[a-zA-Z\\d\/]+\/?",
+			"params": {}
+		}],
+		"vcType": 13
+	}, {
+		"desc": "专题",
+		"rule": [{
+			"regex": "(http|https):\/\/((m.[a-zA-Z\\d_\\-]+.zhulong.com)|([a-zA-Z\\d_\\-]+.zhulong.com\/m))\/topic_[a-zA-Z\\d_\\-]+.html",
+			"params": {}
+		}],
+		"vcType": 14
+	}, {
+		"desc": "个人中心",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?passport.zhulong.com\/(m_)?userindex",
+			"params": {}
+		}],
+		"vcType": 15
+	}, {
+		"desc": "图酷首页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com(\/)?(mobile|jzmobile)?(\/search)?(\\?((type=(jx|tj|yc))|(short=jz)))?",
+			"params": {
+				"index": 0
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com(\/)?(mobile|(sn(mobile)?))?(\/search)?(\\?((type=(jx|tj|yc))|(short=sn)))?",
+			"params": {
+				"index": 1
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com(\/)?(mobile|(yl(mobile)?))?(\/search)?(\\?((type=(jx|tj|yc))|(short=yl)))?",
+			"params": {
+				"index": 2
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com(\/mobile)?\/myworks",
+			"params": {
+				"index": 3
+			}
+		}],
+		"vcType": 16
+	}, {
+		"desc": "图酷详细页（项目）",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com\/(proj|[a-zA-Z]*(mobile)?)\/detail\\d+.html",
+			"params": {
+				"proj_id": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 17
+	}, {
+		"desc": "图酷详细页（作品）",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?photo.zhulong.com\/(proj|[a-zA-Z]*(mobile)?)\/(worksDetail|WorksDetail)\\?(.*?)works_id=\\d+(.*?)",
+			"params": {
+				"proj_id": {
+					"key": "works_id=",
+					"param": "works_id=\\d+"
+				}
+			}
+		}],
+		"vcType": 18
+	}, {
+		"desc": "教育首页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com(\/(mobile|muser|shopping))?\/(buylesson|waitorder|collect|browsing)",
+			"params": {
+				"index": 0
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com(\/(mobile|muser|shopping))?\/(menu|([a-zA-Z]+index.html))",
+			"params": {
+				"index": 1
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/?(mobile)?(\/index)?",
+			"params": {
+				"index": 2
+			}
+		}],
+		"vcType": 19
+	}, {
+		"desc": "教育课程页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/(mobile\/)?lesson\/\\d+\\-\\d+.html\\??(.*)?",
+			"params": {
+				"lessonType": {
+					"key": "-",
+					"param": "\\-\\d+"
+				},
+				"lessonID": {
+					"key": "-",
+					"param": "\\d+\\-"
+				}
+			}
+		}],
+		"vcType": 20
+	}, {
+		"desc": "教育听课页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com(\/mobile)?\/(heard|play)\\?id=\\d+",
+			"params": {
+				"lessonID": {
+					"param": "id=\\d+",
+					"key": "id="
+				}
+			}
+		}],
+		"vcType": 21
+	}, {
+		"desc": "课程试听",
+		"rule": [{
+			"regex": "(http|https):\/\/edu.zhulong.com\/(mobile\/)?part\\d+\\-\\d+.html\\??(.*)?",
+			"params": {}
+		}, {
+			"regex": "(http|https):\/\/m.edu.zhulong.com\/part\\d+\\-\\d+.html\\??(.*)?",
+			"params": {}
+		}],
+		"vcType": 22
+	}, {
+		"desc": "课程订单页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com(\/(shopping|mobile))?\/orderinfo\\?id=\\d+&t=\\d+",
+			"params": {
+				"lessonType": {
+					"key": "t=",
+					"param": "t=\\d+"
+				},
+				"lessonID": {
+					"key": "id=",
+					"param": "id=\\d+"
+				}
+			}
+		}],
+		"vcType": 23
+	}, {
+		"desc": "课程未支付订单",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/(m)?user\/orderwapcontrol\\?id=\\d+",
+			"params": {
+				"orderID": {
+					"param": "id=\\d+",
+					"key": "id="
+				}
+			}
+		}],
+		"vcType": 24
+	}, {
+		"desc": "课程咨询",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/Consult\\?id=\\d+&t=\\d+",
+			"params": {}
+		}],
+		"vcType": 25
+	}, {
+		"desc": "课程订单联系方式",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/touch\\?id=\\d+&t=\\d+",
+			"params": {}
+		}],
+		"vcType": 26
+	}, {
+		"desc": "资源",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?t.zhulong.com\/(m_)?resource",
+			"params": {}
+		}],
+		"vcType": 27
+	}, {
+		"desc": "我的账户",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?passport.zhulong.com\/(m_)?acount",
+			"params": {}
+		}],
+		"vcType": 28
+	}, {
+		"desc": "VIP升级方式",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?passport.zhulong.com\/pay\/paytype\\?upgrade_type=\\d+",
+			"params": {}
+		}],
+		"vcType": 29
+	}, {
+		"desc": "VIP未支付订单",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?passport.zhulong.com\/pay\/waitorderpay\\?id=\\d+",
+			"params": {}
+		}],
+		"vcType": 30
+	}, {
+		"desc": "微课程",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/weiketang\/detail\\d+(.*)?",
+			"params": {
+				"weikeID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				},
+				"lessonId": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?jiaoyu.zhulong.com\/weiketang\/detail\\d+(.*)?",
+			"params": {
+				"weikeID": {
+					"key": "detail",
+					"param": "detail\\d+"
+				},
+				"lessonId": {
+					"key": "detail",
+					"param": "detail\\d+"
+				}
+			}
+		}],
+		"vcType": 31
+	}, {
+		"desc": "VIP引导页",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?passport.zhulong.com\/(m\/)?vipindex",
+			"params": {}
+		}],
+		"vcType": 32
+	}, {
+		"desc": "标准VIP升级",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?(vip|passport).zhulong.com\/(m\/)?(score\/)?(vipupgrade|vipiosupgrade|shengji)",
+			"params": {}
+		}],
+		"vcType": 33
+	}, {
+		"desc": "观看直播",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/live\/see_live\\?id=\\d+",
+			"params": {
+				"liveId": {
+					"key": "id=",
+					"param": "id=\\d+"
+				}
+			}
+		}, {
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/mobile\/see_live\\?id=\\d+",
+			"params": {
+				"liveId": {
+					"key": "id=",
+					"param": "id=\\d+"
+				}
+			}
+		}],
+		"vcType": "34"
+	}, {
+		"desc": "课程播放",
+		"rule": [{
+			"regex": "(http|https):\/\/(m.)?edu.zhulong.com\/shopping\/newplay\\?lesson_id=\\d+&part_id=\\d+",
+			"params": {
+				"lessonId": {
+					"key": "lesson_id=",
+					"param": "lesson_id=\\d+"
+				},
+				"partId": {
+					"key": "part_id=",
+					"param": "part_id=\\d+"
+				}
+			}
+		}],
+		"vcType": 35
+	}]
+}

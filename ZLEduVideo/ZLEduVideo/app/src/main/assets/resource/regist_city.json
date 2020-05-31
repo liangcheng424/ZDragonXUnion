@@ -1,0 +1,1686 @@
+[{
+    "id": "1",
+    "sortLetters": "beijing",
+    "parent_id": "1",
+    "name": "北京"
+}, {
+    "id": "2",
+    "sortLetters": "tianjin",
+    "parent_id": "2",
+    "name": "天津"
+}, {
+    "id": "9",
+    "sortLetters": "shanghai",
+    "parent_id": "9",
+    "name": "上海"
+}, {
+    "id": "22",
+    "sortLetters": "chongqing",
+    "parent_id": "22",
+    "name": "重庆"
+}, {
+    "id": "81",
+    "sortLetters": "hengshui",
+    "parent_id": "3",
+    "name": "衡水"
+}, {
+    "id": "82",
+    "sortLetters": "langfang",
+    "parent_id": "3",
+    "name": "廊坊"
+}, {
+    "id": "83",
+    "sortLetters": "cangzhou",
+    "parent_id": "3",
+    "name": "沧州"
+}, {
+    "id": "80",
+    "sortLetters": "chengde",
+    "parent_id": "3",
+    "name": "承德"
+}, {
+    "id": "79",
+    "sortLetters": "zhangjiakou",
+    "parent_id": "3",
+    "name": "张家口"
+}, {
+    "id": "78",
+    "sortLetters": "baoding",
+    "parent_id": "3",
+    "name": "保定"
+}, {
+    "id": "77",
+    "sortLetters": "xingtai",
+    "parent_id": "3",
+    "name": "邢台"
+}, {
+    "id": "76",
+    "sortLetters": "handan",
+    "parent_id": "3",
+    "name": "邯郸"
+}, {
+    "id": "75",
+    "sortLetters": "qinhuangdao",
+    "parent_id": "3",
+    "name": "秦皇岛"
+}, {
+    "id": "74",
+    "sortLetters": "tangshan",
+    "parent_id": "3",
+    "name": "唐山"
+}, {
+    "id": "73",
+    "sortLetters": "shijiazhuang",
+    "parent_id": "3",
+    "name": "石家庄"
+}, {
+    "id": "94",
+    "sortLetters": "lvliang",
+    "parent_id": "4",
+    "name": "吕梁"
+}, {
+    "id": "93",
+    "sortLetters": "linfen",
+    "parent_id": "4",
+    "name": "临汾"
+}, {
+    "id": "92",
+    "sortLetters": "xinzhou",
+    "parent_id": "4",
+    "name": "忻州"
+}, {
+    "id": "91",
+    "sortLetters": "yuncheng",
+    "parent_id": "4",
+    "name": "运城"
+}, {
+    "id": "90",
+    "sortLetters": "jinzhong",
+    "parent_id": "4",
+    "name": "晋中"
+}, {
+    "id": "89",
+    "sortLetters": "shuozhou",
+    "parent_id": "4",
+    "name": "朔州"
+}, {
+    "id": "88",
+    "sortLetters": "jincheng",
+    "parent_id": "4",
+    "name": "晋城"
+}, {
+    "id": "87",
+    "sortLetters": "changzhi",
+    "parent_id": "4",
+    "name": "长治"
+}, {
+    "id": "86",
+    "sortLetters": "yangquan",
+    "parent_id": "4",
+    "name": "阳泉"
+}, {
+    "id": "85",
+    "sortLetters": "datong",
+    "parent_id": "4",
+    "name": "大同"
+}, {
+    "id": "84",
+    "sortLetters": "taiyuan",
+    "parent_id": "4",
+    "name": "太原"
+}, {
+    "id": "106",
+    "sortLetters": "alashanmeng",
+    "parent_id": "5",
+    "name": "阿拉善盟"
+}, {
+    "id": "105",
+    "sortLetters": "xilinguolemeng",
+    "parent_id": "5",
+    "name": "锡林郭勒盟"
+}, {
+    "id": "104",
+    "sortLetters": "xinganmeng",
+    "parent_id": "5",
+    "name": "兴安盟"
+}, {
+    "id": "101",
+    "sortLetters": "hulunbeier",
+    "parent_id": "5",
+    "name": "呼伦贝尔"
+}, {
+    "id": "100",
+    "sortLetters": "eerduosi",
+    "parent_id": "5",
+    "name": "鄂尔多斯"
+}, {
+    "id": "99",
+    "sortLetters": "tongliao",
+    "parent_id": "5",
+    "name": "通辽"
+}, {
+    "id": "98",
+    "sortLetters": "chifeng",
+    "parent_id": "5",
+    "name": "赤峰"
+}, {
+    "id": "97",
+    "sortLetters": "wuhai",
+    "parent_id": "5",
+    "name": "乌海"
+}, {
+    "id": "96",
+    "sortLetters": "baotou",
+    "parent_id": "5",
+    "name": "包头"
+}, {
+    "id": "95",
+    "sortLetters": "huhehaote",
+    "parent_id": "5",
+    "name": "呼和浩特"
+}, {
+    "id": "120",
+    "sortLetters": "huludao",
+    "parent_id": "6",
+    "name": "葫芦岛"
+}, {
+    "id": "41",
+    "sortLetters": "chaoyang",
+    "parent_id": "6",
+    "name": "朝阳"
+}, {
+    "id": "118",
+    "sortLetters": "tieling",
+    "parent_id": "6",
+    "name": "铁岭"
+}, {
+    "id": "117",
+    "sortLetters": "panjin",
+    "parent_id": "6",
+    "name": "盘锦"
+}, {
+    "id": "116",
+    "sortLetters": "liaoyang",
+    "parent_id": "6",
+    "name": "辽阳"
+}, {
+    "id": "115",
+    "sortLetters": "fuxin",
+    "parent_id": "6",
+    "name": "阜新"
+}, {
+    "id": "114",
+    "sortLetters": "yingkou",
+    "parent_id": "6",
+    "name": "营口"
+}, {
+    "id": "113",
+    "sortLetters": "jinzhou",
+    "parent_id": "6",
+    "name": "锦州"
+}, {
+    "id": "112",
+    "sortLetters": "dandong",
+    "parent_id": "6",
+    "name": "丹东"
+}, {
+    "id": "111",
+    "sortLetters": "benxi",
+    "parent_id": "6",
+    "name": "本溪"
+}, {
+    "id": "110",
+    "sortLetters": "fushun",
+    "parent_id": "6",
+    "name": "抚顺"
+}, {
+    "id": "109",
+    "sortLetters": "anshan",
+    "parent_id": "6",
+    "name": "鞍山"
+}, {
+    "id": "108",
+    "sortLetters": "dalian",
+    "parent_id": "6",
+    "name": "大连"
+}, {
+    "id": "107",
+    "sortLetters": "shenyang",
+    "parent_id": "6",
+    "name": "沈阳"
+}, {
+    "id": "129",
+    "sortLetters": "yanbian",
+    "parent_id": "7",
+    "name": "延边"
+}, {
+    "id": "128",
+    "sortLetters": "baicheng",
+    "parent_id": "7",
+    "name": "白城"
+}, {
+    "id": "127",
+    "sortLetters": "songyuan",
+    "parent_id": "7",
+    "name": "松原"
+}, {
+    "id": "126",
+    "sortLetters": "baishan",
+    "parent_id": "7",
+    "name": "白山"
+}, {
+    "id": "125",
+    "sortLetters": "tonghua",
+    "parent_id": "7",
+    "name": "通化"
+}, {
+    "id": "124",
+    "sortLetters": "liaoyuan",
+    "parent_id": "7",
+    "name": "辽源"
+}, {
+    "id": "123",
+    "sortLetters": "siping",
+    "parent_id": "7",
+    "name": "四平"
+}, {
+    "id": "122",
+    "sortLetters": "jilin",
+    "parent_id": "7",
+    "name": "吉林"
+}, {
+    "id": "121",
+    "sortLetters": "changchun",
+    "parent_id": "7",
+    "name": "长春"
+}, {
+    "id": "142",
+    "sortLetters": "daxinganling",
+    "parent_id": "8",
+    "name": "大兴安岭"
+}, {
+    "id": "141",
+    "sortLetters": "suihua",
+    "parent_id": "8",
+    "name": "绥化"
+}, {
+    "id": "140",
+    "sortLetters": "heihe",
+    "parent_id": "8",
+    "name": "黑河"
+}, {
+    "id": "139",
+    "sortLetters": "mudanjiang",
+    "parent_id": "8",
+    "name": "牡丹江"
+}, {
+    "id": "138",
+    "sortLetters": "qitaihe",
+    "parent_id": "8",
+    "name": "七台河"
+}, {
+    "id": "137",
+    "sortLetters": "jiamusi",
+    "parent_id": "8",
+    "name": "佳木斯"
+}, {
+    "id": "136",
+    "sortLetters": "yichun",
+    "parent_id": "8",
+    "name": "伊春"
+}, {
+    "id": "135",
+    "sortLetters": "daqing",
+    "parent_id": "8",
+    "name": "大庆"
+}, {
+    "id": "134",
+    "sortLetters": "shuangyashan",
+    "parent_id": "8",
+    "name": "双鸭山"
+}, {
+    "id": "133",
+    "sortLetters": "hegang",
+    "parent_id": "8",
+    "name": "鹤岗"
+}, {
+    "id": "132",
+    "sortLetters": "jixi",
+    "parent_id": "8",
+    "name": "鸡西"
+}, {
+    "id": "131",
+    "sortLetters": "qiqihaer",
+    "parent_id": "8",
+    "name": "齐齐哈尔"
+}, {
+    "id": "130",
+    "sortLetters": "haerbin",
+    "parent_id": "8",
+    "name": "哈尔滨"
+}, {
+    "id": "174",
+    "sortLetters": "suqian",
+    "parent_id": "10",
+    "name": "宿迁"
+}, {
+    "id": "173",
+    "sortLetters": "taizhou",
+    "parent_id": "10",
+    "name": "泰州"
+}, {
+    "id": "172",
+    "sortLetters": "zhenjiang",
+    "parent_id": "10",
+    "name": "镇江"
+}, {
+    "id": "171",
+    "sortLetters": "yangzhou",
+    "parent_id": "10",
+    "name": "扬州"
+}, {
+    "id": "170",
+    "sortLetters": "yancheng",
+    "parent_id": "10",
+    "name": "盐城"
+}, {
+    "id": "169",
+    "sortLetters": "huaian",
+    "parent_id": "10",
+    "name": "淮安"
+}, {
+    "id": "168",
+    "sortLetters": "lianyungang",
+    "parent_id": "10",
+    "name": "连云港"
+}, {
+    "id": "167",
+    "sortLetters": "nantong",
+    "parent_id": "10",
+    "name": "南通"
+}, {
+    "id": "166",
+    "sortLetters": "suzhou",
+    "parent_id": "10",
+    "name": "苏州"
+}, {
+    "id": "165",
+    "sortLetters": "changzhou",
+    "parent_id": "10",
+    "name": "常州"
+}, {
+    "id": "164",
+    "sortLetters": "xuzhou",
+    "parent_id": "10",
+    "name": "徐州"
+}, {
+    "id": "163",
+    "sortLetters": "wuxi",
+    "parent_id": "10",
+    "name": "无锡"
+}, {
+    "id": "162",
+    "sortLetters": "nanjing",
+    "parent_id": "10",
+    "name": "南京"
+}, {
+    "id": "178",
+    "sortLetters": "jiaxing",
+    "parent_id": "11",
+    "name": "嘉兴"
+}, {
+    "id": "177",
+    "sortLetters": "wenzhou",
+    "parent_id": "11",
+    "name": "温州"
+}, {
+    "id": "176",
+    "sortLetters": "ningbo",
+    "parent_id": "11",
+    "name": "宁波"
+}, {
+    "id": "175",
+    "sortLetters": "hangzhou",
+    "parent_id": "11",
+    "name": "杭州"
+}, {
+    "id": "179",
+    "sortLetters": "huzhou",
+    "parent_id": "11",
+    "name": "湖州"
+}, {
+    "id": "180",
+    "sortLetters": "shaoxing",
+    "parent_id": "11",
+    "name": "绍兴"
+}, {
+    "id": "183",
+    "sortLetters": "jinhua",
+    "parent_id": "11",
+    "name": "金华"
+}, {
+    "id": "182",
+    "sortLetters": "zuozhou",
+    "parent_id": "11",
+    "name": "衢州"
+}, {
+    "id": "181",
+    "sortLetters": "zhoushan",
+    "parent_id": "11",
+    "name": "舟山"
+}, {
+    "id": "184",
+    "sortLetters": "taizhou",
+    "parent_id": "11",
+    "name": "台州"
+}, {
+    "id": "185",
+    "sortLetters": "lishui",
+    "parent_id": "11",
+    "name": "丽水"
+}, {
+    "id": "202",
+    "sortLetters": "xuancheng",
+    "parent_id": "12",
+    "name": "宣城"
+}, {
+    "id": "201",
+    "sortLetters": "chizhou",
+    "parent_id": "12",
+    "name": "池州"
+}, {
+    "id": "200",
+    "sortLetters": "zuozhou",
+    "parent_id": "12",
+    "name": "亳州"
+}, {
+    "id": "199",
+    "sortLetters": "liuan",
+    "parent_id": "12",
+    "name": "六安"
+}, {
+    "id": "198",
+    "sortLetters": "chaohu",
+    "parent_id": "12",
+    "name": "巢湖"
+}, {
+    "id": "197",
+    "sortLetters": "suzhou",
+    "parent_id": "12",
+    "name": "宿州"
+}, {
+    "id": "196",
+    "sortLetters": "fuyang",
+    "parent_id": "12",
+    "name": "阜阳"
+}, {
+    "id": "195",
+    "sortLetters": "chuzhou",
+    "parent_id": "12",
+    "name": "滁州"
+}, {
+    "id": "194",
+    "sortLetters": "huangshan",
+    "parent_id": "12",
+    "name": "黄山"
+}, {
+    "id": "193",
+    "sortLetters": "anqing",
+    "parent_id": "12",
+    "name": "安庆"
+}, {
+    "id": "192",
+    "sortLetters": "tongling",
+    "parent_id": "12",
+    "name": "铜陵"
+}, {
+    "id": "191",
+    "sortLetters": "huaibei",
+    "parent_id": "12",
+    "name": "淮北"
+}, {
+    "id": "190",
+    "sortLetters": "maanshan",
+    "parent_id": "12",
+    "name": "马鞍山"
+}, {
+    "id": "189",
+    "sortLetters": "huainan",
+    "parent_id": "12",
+    "name": "淮南"
+}, {
+    "id": "188",
+    "sortLetters": "bangbu",
+    "parent_id": "12",
+    "name": "蚌埠"
+}, {
+    "id": "187",
+    "sortLetters": "wuhu",
+    "parent_id": "12",
+    "name": "芜湖"
+}, {
+    "id": "186",
+    "sortLetters": "hefei",
+    "parent_id": "12",
+    "name": "合肥"
+}, {
+    "id": "211",
+    "sortLetters": "ningde",
+    "parent_id": "13",
+    "name": "宁德"
+}, {
+    "id": "210",
+    "sortLetters": "longyan",
+    "parent_id": "13",
+    "name": "龙岩"
+}, {
+    "id": "209",
+    "sortLetters": "nanping",
+    "parent_id": "13",
+    "name": "南平"
+}, {
+    "id": "208",
+    "sortLetters": "zhangzhou",
+    "parent_id": "13",
+    "name": "漳州"
+}, {
+    "id": "207",
+    "sortLetters": "quanzhou",
+    "parent_id": "13",
+    "name": "泉州"
+}, {
+    "id": "206",
+    "sortLetters": "sanming",
+    "parent_id": "13",
+    "name": "三明"
+}, {
+    "id": "205",
+    "sortLetters": "putian",
+    "parent_id": "13",
+    "name": "莆田"
+}, {
+    "id": "204",
+    "sortLetters": "xiamen",
+    "parent_id": "13",
+    "name": "厦门"
+}, {
+    "id": "203",
+    "sortLetters": "fuzhou",
+    "parent_id": "13",
+    "name": "福州"
+}, {
+    "id": "222",
+    "sortLetters": "shangrao",
+    "parent_id": "14",
+    "name": "上饶"
+}, {
+    "id": "221",
+    "sortLetters": "fuzhou",
+    "parent_id": "14",
+    "name": "抚州"
+}, {
+    "id": "220",
+    "sortLetters": "yichun",
+    "parent_id": "14",
+    "name": "宜春"
+}, {
+    "id": "219",
+    "sortLetters": "jian",
+    "parent_id": "14",
+    "name": "吉安"
+}, {
+    "id": "218",
+    "sortLetters": "ganzhou",
+    "parent_id": "14",
+    "name": "赣州"
+}, {
+    "id": "217",
+    "sortLetters": "yingtan",
+    "parent_id": "14",
+    "name": "鹰潭"
+}, {
+    "id": "216",
+    "sortLetters": "xinyu",
+    "parent_id": "14",
+    "name": "新余"
+}, {
+    "id": "215",
+    "sortLetters": "jiujiang",
+    "parent_id": "14",
+    "name": "九江"
+}, {
+    "id": "214",
+    "sortLetters": "pingxiang",
+    "parent_id": "14",
+    "name": "萍乡"
+}, {
+    "id": "213",
+    "sortLetters": "jingdezhen",
+    "parent_id": "14",
+    "name": "景德镇"
+}, {
+    "id": "212",
+    "sortLetters": "nanchang",
+    "parent_id": "14",
+    "name": "南昌"
+}, {
+    "id": "238",
+    "sortLetters": "binzhou",
+    "parent_id": "15",
+    "name": "滨州"
+}, {
+    "id": "237",
+    "sortLetters": "liaocheng",
+    "parent_id": "15",
+    "name": "聊城"
+}, {
+    "id": "236",
+    "sortLetters": "dezhou",
+    "parent_id": "15",
+    "name": "德州"
+}, {
+    "id": "235",
+    "sortLetters": "linyi",
+    "parent_id": "15",
+    "name": "临沂"
+}, {
+    "id": "234",
+    "sortLetters": "laiwu",
+    "parent_id": "15",
+    "name": "莱芜"
+}, {
+    "id": "233",
+    "sortLetters": "rizhao",
+    "parent_id": "15",
+    "name": "日照"
+}, {
+    "id": "232",
+    "sortLetters": "weihai",
+    "parent_id": "15",
+    "name": "威海"
+}, {
+    "id": "231",
+    "sortLetters": "taian",
+    "parent_id": "15",
+    "name": "泰安"
+}, {
+    "id": "230",
+    "sortLetters": "jining",
+    "parent_id": "15",
+    "name": "济宁"
+}, {
+    "id": "229",
+    "sortLetters": "weifang",
+    "parent_id": "15",
+    "name": "潍坊"
+}, {
+    "id": "228",
+    "sortLetters": "yantai",
+    "parent_id": "15",
+    "name": "烟台"
+}, {
+    "id": "227",
+    "sortLetters": "dongying",
+    "parent_id": "15",
+    "name": "东营"
+}, {
+    "id": "226",
+    "sortLetters": "zaozhuang",
+    "parent_id": "15",
+    "name": "枣庄"
+}, {
+    "id": "225",
+    "sortLetters": "zibo",
+    "parent_id": "15",
+    "name": "淄博"
+}, {
+    "id": "224",
+    "sortLetters": "qingdao",
+    "parent_id": "15",
+    "name": "青岛"
+}, {
+    "id": "223",
+    "sortLetters": "jinan",
+    "parent_id": "15",
+    "name": "济南"
+}, {
+    "id": "239",
+    "sortLetters": "heze",
+    "parent_id": "15",
+    "name": "菏泽"
+}, {
+    "id": "256",
+    "sortLetters": "zhumadian",
+    "parent_id": "16",
+    "name": "驻马店"
+}, {
+    "id": "255",
+    "sortLetters": "zhoukou",
+    "parent_id": "16",
+    "name": "周口"
+}, {
+    "id": "254",
+    "sortLetters": "xinyang",
+    "parent_id": "16",
+    "name": "信阳"
+}, {
+    "id": "253",
+    "sortLetters": "shangqiu",
+    "parent_id": "16",
+    "name": "商丘"
+}, {
+    "id": "252",
+    "sortLetters": "nanyang",
+    "parent_id": "16",
+    "name": "南阳"
+}, {
+    "id": "251",
+    "sortLetters": "sanmenxia",
+    "parent_id": "16",
+    "name": "三门峡"
+}, {
+    "id": "250",
+    "sortLetters": "zuohe",
+    "parent_id": "16",
+    "name": "漯河"
+}, {
+    "id": "249",
+    "sortLetters": "xuchang",
+    "parent_id": "16",
+    "name": "许昌"
+}, {
+    "id": "248",
+    "sortLetters": "zuoyang",
+    "parent_id": "16",
+    "name": "濮阳"
+}, {
+    "id": "247",
+    "sortLetters": "jiaozuo",
+    "parent_id": "16",
+    "name": "焦作"
+}, {
+    "id": "246",
+    "sortLetters": "xinxiang",
+    "parent_id": "16",
+    "name": "新乡"
+}, {
+    "id": "245",
+    "sortLetters": "hebi",
+    "parent_id": "16",
+    "name": "鹤壁"
+}, {
+    "id": "244",
+    "sortLetters": "anyang",
+    "parent_id": "16",
+    "name": "安阳"
+}, {
+    "id": "243",
+    "sortLetters": "pingdingshan",
+    "parent_id": "16",
+    "name": "平顶山"
+}, {
+    "id": "242",
+    "sortLetters": "luoyang",
+    "parent_id": "16",
+    "name": "洛阳"
+}, {
+    "id": "241",
+    "sortLetters": "kaifeng",
+    "parent_id": "16",
+    "name": "开封"
+}, {
+    "id": "240",
+    "sortLetters": "zhengzhou",
+    "parent_id": "16",
+    "name": "郑州"
+}, {
+    "id": "270",
+    "sortLetters": "enshi",
+    "parent_id": "17",
+    "name": "恩施"
+}, {
+    "id": "269",
+    "sortLetters": "suizhou",
+    "parent_id": "17",
+    "name": "随州"
+}, {
+    "id": "268",
+    "sortLetters": "xianning",
+    "parent_id": "17",
+    "name": "咸宁"
+}, {
+    "id": "267",
+    "sortLetters": "huanggang",
+    "parent_id": "17",
+    "name": "黄冈"
+}, {
+    "id": "266",
+    "sortLetters": "jingzhou",
+    "parent_id": "17",
+    "name": "荆州"
+}, {
+    "id": "265",
+    "sortLetters": "xiaogan",
+    "parent_id": "17",
+    "name": "孝感"
+}, {
+    "id": "264",
+    "sortLetters": "jingmen",
+    "parent_id": "17",
+    "name": "荆门"
+}, {
+    "id": "263",
+    "sortLetters": "ezhou",
+    "parent_id": "17",
+    "name": "鄂州"
+}, {
+    "id": "262",
+    "sortLetters": "xiangfan",
+    "parent_id": "17",
+    "name": "襄樊"
+}, {
+    "id": "261",
+    "sortLetters": "yichang",
+    "parent_id": "17",
+    "name": "宜昌"
+}, {
+    "id": "260",
+    "sortLetters": "shiyan",
+    "parent_id": "17",
+    "name": "十堰"
+}, {
+    "id": "259",
+    "sortLetters": "huangshi",
+    "parent_id": "17",
+    "name": "黄石"
+}, {
+    "id": "258",
+    "sortLetters": "wuhan",
+    "parent_id": "17",
+    "name": "武汉"
+}, {
+    "id": "288",
+    "sortLetters": "xiangxi",
+    "parent_id": "18",
+    "name": "湘西"
+}, {
+    "id": "287",
+    "sortLetters": "loudi",
+    "parent_id": "18",
+    "name": "娄底"
+}, {
+    "id": "286",
+    "sortLetters": "huaihua",
+    "parent_id": "18",
+    "name": "怀化"
+}, {
+    "id": "285",
+    "sortLetters": "yongzhou",
+    "parent_id": "18",
+    "name": "永州"
+}, {
+    "id": "284",
+    "sortLetters": "chenzhou",
+    "parent_id": "18",
+    "name": "郴州"
+}, {
+    "id": "283",
+    "sortLetters": "yiyang",
+    "parent_id": "18",
+    "name": "益阳"
+}, {
+    "id": "282",
+    "sortLetters": "zhangjiajie",
+    "parent_id": "18",
+    "name": "张家界"
+}, {
+    "id": "281",
+    "sortLetters": "changde",
+    "parent_id": "18",
+    "name": "常德"
+}, {
+    "id": "280",
+    "sortLetters": "yueyang",
+    "parent_id": "18",
+    "name": "岳阳"
+}, {
+    "id": "279",
+    "sortLetters": "shaoyang",
+    "parent_id": "18",
+    "name": "邵阳"
+}, {
+    "id": "278",
+    "sortLetters": "hengyang",
+    "parent_id": "18",
+    "name": "衡阳"
+}, {
+    "id": "277",
+    "sortLetters": "xiangtan",
+    "parent_id": "18",
+    "name": "湘潭"
+}, {
+    "id": "276",
+    "sortLetters": "zhuzhou",
+    "parent_id": "18",
+    "name": "株洲"
+}, {
+    "id": "275",
+    "sortLetters": "changsha",
+    "parent_id": "18",
+    "name": "长沙"
+}, {
+    "id": "309",
+    "sortLetters": "yunfu",
+    "parent_id": "19",
+    "name": "云浮"
+}, {
+    "id": "308",
+    "sortLetters": "jieyang",
+    "parent_id": "19",
+    "name": "揭阳"
+}, {
+    "id": "307",
+    "sortLetters": "chaozhou",
+    "parent_id": "19",
+    "name": "潮州"
+}, {
+    "id": "306",
+    "sortLetters": "zhongshan",
+    "parent_id": "19",
+    "name": "中山"
+}, {
+    "id": "305",
+    "sortLetters": "dongzuo",
+    "parent_id": "19",
+    "name": "东莞"
+}, {
+    "id": "304",
+    "sortLetters": "qingyuan",
+    "parent_id": "19",
+    "name": "清远"
+}, {
+    "id": "303",
+    "sortLetters": "yangjiang",
+    "parent_id": "19",
+    "name": "阳江"
+}, {
+    "id": "302",
+    "sortLetters": "heyuan",
+    "parent_id": "19",
+    "name": "河源"
+}, {
+    "id": "301",
+    "sortLetters": "shanwei",
+    "parent_id": "19",
+    "name": "汕尾"
+}, {
+    "id": "300",
+    "sortLetters": "meizhou",
+    "parent_id": "19",
+    "name": "梅州"
+}, {
+    "id": "299",
+    "sortLetters": "huizhou",
+    "parent_id": "19",
+    "name": "惠州"
+}, {
+    "id": "298",
+    "sortLetters": "zhaoqing",
+    "parent_id": "19",
+    "name": "肇庆"
+}, {
+    "id": "297",
+    "sortLetters": "maoming",
+    "parent_id": "19",
+    "name": "茂名"
+}, {
+    "id": "296",
+    "sortLetters": "zhanjiang",
+    "parent_id": "19",
+    "name": "湛江"
+}, {
+    "id": "295",
+    "sortLetters": "jiangmen",
+    "parent_id": "19",
+    "name": "江门"
+}, {
+    "id": "294",
+    "sortLetters": "foshan",
+    "parent_id": "19",
+    "name": "佛山"
+}, {
+    "id": "293",
+    "sortLetters": "shantou",
+    "parent_id": "19",
+    "name": "汕头"
+}, {
+    "id": "292",
+    "sortLetters": "zhuhai",
+    "parent_id": "19",
+    "name": "珠海"
+}, {
+    "id": "291",
+    "sortLetters": "shenzuo",
+    "parent_id": "19",
+    "name": "深圳"
+}, {
+    "id": "290",
+    "sortLetters": "shaoguan",
+    "parent_id": "19",
+    "name": "韶关"
+}, {
+    "id": "289",
+    "sortLetters": "guangzhou",
+    "parent_id": "19",
+    "name": "广州"
+}, {
+    "id": "321",
+    "sortLetters": "hechi",
+    "parent_id": "20",
+    "name": "河池"
+}, {
+    "id": "320",
+    "sortLetters": "hezhou",
+    "parent_id": "20",
+    "name": "贺州"
+}, {
+    "id": "319",
+    "sortLetters": "baise",
+    "parent_id": "20",
+    "name": "百色"
+}, {
+    "id": "318",
+    "sortLetters": "yulin",
+    "parent_id": "20",
+    "name": "玉林"
+}, {
+    "id": "317",
+    "sortLetters": "guigang",
+    "parent_id": "20",
+    "name": "贵港"
+}, {
+    "id": "316",
+    "sortLetters": "qinzhou",
+    "parent_id": "20",
+    "name": "钦州"
+}, {
+    "id": "315",
+    "sortLetters": "fangchenggang",
+    "parent_id": "20",
+    "name": "防城港"
+}, {
+    "id": "314",
+    "sortLetters": "beihai",
+    "parent_id": "20",
+    "name": "北海"
+}, {
+    "id": "313",
+    "sortLetters": "wuzhou",
+    "parent_id": "20",
+    "name": "梧州"
+}, {
+    "id": "312",
+    "sortLetters": "guilin",
+    "parent_id": "20",
+    "name": "桂林"
+}, {
+    "id": "311",
+    "sortLetters": "liuzhou",
+    "parent_id": "20",
+    "name": "柳州"
+}, {
+    "id": "310",
+    "sortLetters": "nanning",
+    "parent_id": "20",
+    "name": "南宁"
+}, {
+    "id": "36",
+    "sortLetters": "qita",
+    "parent_id": "36",
+    "name": "其他"
+}, {
+    "id": "325",
+    "sortLetters": "sanya",
+    "parent_id": "21",
+    "name": "三亚"
+}, {
+    "id": "324",
+    "sortLetters": "haikou",
+    "parent_id": "21",
+    "name": "海口"
+}, {
+    "id": "405",
+    "sortLetters": "liangshan",
+    "parent_id": "23",
+    "name": "凉山"
+}, {
+    "id": "404",
+    "sortLetters": "ganzi",
+    "parent_id": "23",
+    "name": "甘孜"
+}, {
+    "id": "403",
+    "sortLetters": "aba",
+    "parent_id": "23",
+    "name": "阿坝"
+}, {
+    "id": "402",
+    "sortLetters": "ziyang",
+    "parent_id": "23",
+    "name": "资阳"
+}, {
+    "id": "401",
+    "sortLetters": "bazhong",
+    "parent_id": "23",
+    "name": "巴中"
+}, {
+    "id": "400",
+    "sortLetters": "yaan",
+    "parent_id": "23",
+    "name": "雅安"
+}, {
+    "id": "399",
+    "sortLetters": "dazhou",
+    "parent_id": "23",
+    "name": "达州"
+}, {
+    "id": "398",
+    "sortLetters": "guangan",
+    "parent_id": "23",
+    "name": "广安"
+}, {
+    "id": "397",
+    "sortLetters": "yibin",
+    "parent_id": "23",
+    "name": "宜宾"
+}, {
+    "id": "396",
+    "sortLetters": "meishan",
+    "parent_id": "23",
+    "name": "眉山"
+}, {
+    "id": "395",
+    "sortLetters": "nanchong",
+    "parent_id": "23",
+    "name": "南充"
+}, {
+    "id": "394",
+    "sortLetters": "leshan",
+    "parent_id": "23",
+    "name": "乐山"
+}, {
+    "id": "393",
+    "sortLetters": "neijiang",
+    "parent_id": "23",
+    "name": "内江"
+}, {
+    "id": "392",
+    "sortLetters": "suining",
+    "parent_id": "23",
+    "name": "遂宁"
+}, {
+    "id": "391",
+    "sortLetters": "guangyuan",
+    "parent_id": "23",
+    "name": "广元"
+}, {
+    "id": "390",
+    "sortLetters": "mianyang",
+    "parent_id": "23",
+    "name": "绵阳"
+}, {
+    "id": "389",
+    "sortLetters": "deyang",
+    "parent_id": "23",
+    "name": "德阳"
+}, {
+    "id": "388",
+    "sortLetters": "zuozhou",
+    "parent_id": "23",
+    "name": "泸州"
+}, {
+    "id": "387",
+    "sortLetters": "panzhihua",
+    "parent_id": "23",
+    "name": "攀枝花"
+}, {
+    "id": "386",
+    "sortLetters": "zigong",
+    "parent_id": "23",
+    "name": "自贡"
+}, {
+    "id": "385",
+    "sortLetters": "chengdu",
+    "parent_id": "23",
+    "name": "成都"
+}, {
+    "id": "414",
+    "sortLetters": "qiannan",
+    "parent_id": "24",
+    "name": "黔南"
+}, {
+    "id": "413",
+    "sortLetters": "qiandongnan",
+    "parent_id": "24",
+    "name": "黔东南"
+}, {
+    "id": "412",
+    "sortLetters": "bijie",
+    "parent_id": "24",
+    "name": "毕节"
+}, {
+    "id": "411",
+    "sortLetters": "qianxinan",
+    "parent_id": "24",
+    "name": "黔西南"
+}, {
+    "id": "410",
+    "sortLetters": "tongren",
+    "parent_id": "24",
+    "name": "铜仁"
+}, {
+    "id": "409",
+    "sortLetters": "anshun",
+    "parent_id": "24",
+    "name": "安顺"
+}, {
+    "id": "408",
+    "sortLetters": "zunyi",
+    "parent_id": "24",
+    "name": "遵义"
+}, {
+    "id": "407",
+    "sortLetters": "liupanshui",
+    "parent_id": "24",
+    "name": "六盘水"
+}, {
+    "id": "406",
+    "sortLetters": "guiyang",
+    "parent_id": "24",
+    "name": "贵阳"
+}, {
+    "id": "422",
+    "sortLetters": "lincang",
+    "parent_id": "25",
+    "name": "临沧"
+}, {
+    "id": "430",
+    "sortLetters": "diqing",
+    "parent_id": "25",
+    "name": "迪庆"
+}, {
+    "id": "429",
+    "sortLetters": "nujiang",
+    "parent_id": "25",
+    "name": "怒江"
+}, {
+    "id": "420",
+    "sortLetters": "lijiang",
+    "parent_id": "25",
+    "name": "丽江"
+}, {
+    "id": "428",
+    "sortLetters": "dehong",
+    "parent_id": "25",
+    "name": "德宏"
+}, {
+    "id": "427",
+    "sortLetters": "dali",
+    "parent_id": "25",
+    "name": "大理"
+}, {
+    "id": "426",
+    "sortLetters": "xishuangbanna",
+    "parent_id": "25",
+    "name": "西双版纳"
+}, {
+    "id": "421",
+    "sortLetters": "simao",
+    "parent_id": "25",
+    "name": "思茅"
+}, {
+    "id": "425",
+    "sortLetters": "wenshan",
+    "parent_id": "25",
+    "name": "文山"
+}, {
+    "id": "424",
+    "sortLetters": "honghe",
+    "parent_id": "25",
+    "name": "红河"
+}, {
+    "id": "423",
+    "sortLetters": "chuxiong",
+    "parent_id": "25",
+    "name": "楚雄"
+}, {
+    "id": "419",
+    "sortLetters": "zhaotong",
+    "parent_id": "25",
+    "name": "昭通"
+}, {
+    "id": "418",
+    "sortLetters": "baoshan",
+    "parent_id": "25",
+    "name": "保山"
+}, {
+    "id": "417",
+    "sortLetters": "yuxi",
+    "parent_id": "25",
+    "name": "玉溪"
+}, {
+    "id": "416",
+    "sortLetters": "qujing",
+    "parent_id": "25",
+    "name": "曲靖"
+}, {
+    "id": "415",
+    "sortLetters": "kunming",
+    "parent_id": "25",
+    "name": "昆明"
+}, {
+    "id": "437",
+    "sortLetters": "linzhi",
+    "parent_id": "26",
+    "name": "林芝"
+}, {
+    "id": "436",
+    "sortLetters": "ali",
+    "parent_id": "26",
+    "name": "阿里"
+}, {
+    "id": "435",
+    "sortLetters": "naqu",
+    "parent_id": "26",
+    "name": "那曲"
+}, {
+    "id": "434",
+    "sortLetters": "rikaze",
+    "parent_id": "26",
+    "name": "日喀则"
+}, {
+    "id": "433",
+    "sortLetters": "shannan",
+    "parent_id": "26",
+    "name": "山南"
+}, {
+    "id": "432",
+    "sortLetters": "changdu",
+    "parent_id": "26",
+    "name": "昌都"
+}, {
+    "id": "431",
+    "sortLetters": "lasa",
+    "parent_id": "26",
+    "name": "拉萨"
+}, {
+    "id": "447",
+    "sortLetters": "shangluo",
+    "parent_id": "27",
+    "name": "商洛"
+}, {
+    "id": "446",
+    "sortLetters": "ankang",
+    "parent_id": "27",
+    "name": "安康"
+}, {
+    "id": "445",
+    "sortLetters": "yulin",
+    "parent_id": "27",
+    "name": "榆林"
+}, {
+    "id": "444",
+    "sortLetters": "hanzhong",
+    "parent_id": "27",
+    "name": "汉中"
+}, {
+    "id": "443",
+    "sortLetters": "yanan",
+    "parent_id": "27",
+    "name": "延安"
+}, {
+    "id": "442",
+    "sortLetters": "weinan",
+    "parent_id": "27",
+    "name": "渭南"
+}, {
+    "id": "441",
+    "sortLetters": "xianyang",
+    "parent_id": "27",
+    "name": "咸阳"
+}, {
+    "id": "440",
+    "sortLetters": "baoji",
+    "parent_id": "27",
+    "name": "宝鸡"
+}, {
+    "id": "439",
+    "sortLetters": "tongchuan",
+    "parent_id": "27",
+    "name": "铜川"
+}, {
+    "id": "438",
+    "sortLetters": "xian",
+    "parent_id": "27",
+    "name": "西安"
+}, {
+    "id": "461",
+    "sortLetters": "gannan",
+    "parent_id": "28",
+    "name": "甘南"
+}, {
+    "id": "460",
+    "sortLetters": "linxia",
+    "parent_id": "28",
+    "name": "临夏"
+}, {
+    "id": "459",
+    "sortLetters": "longnan",
+    "parent_id": "28",
+    "name": "陇南"
+}, {
+    "id": "458",
+    "sortLetters": "dingxi",
+    "parent_id": "28",
+    "name": "定西"
+}, {
+    "id": "457",
+    "sortLetters": "qingyang",
+    "parent_id": "28",
+    "name": "庆阳"
+}, {
+    "id": "456",
+    "sortLetters": "jiuquan",
+    "parent_id": "28",
+    "name": "酒泉"
+}, {
+    "id": "455",
+    "sortLetters": "pingliang",
+    "parent_id": "28",
+    "name": "平凉"
+}, {
+    "id": "454",
+    "sortLetters": "zhangye",
+    "parent_id": "28",
+    "name": "张掖"
+}, {
+    "id": "453",
+    "sortLetters": "wuwei",
+    "parent_id": "28",
+    "name": "武威"
+}, {
+    "id": "452",
+    "sortLetters": "tianshui",
+    "parent_id": "28",
+    "name": "天水"
+}, {
+    "id": "451",
+    "sortLetters": "baiyin",
+    "parent_id": "28",
+    "name": "白银"
+}, {
+    "id": "450",
+    "sortLetters": "jinchang",
+    "parent_id": "28",
+    "name": "金昌"
+}, {
+    "id": "449",
+    "sortLetters": "jiayuguan",
+    "parent_id": "28",
+    "name": "嘉峪关"
+}, {
+    "id": "448",
+    "sortLetters": "lanzhou",
+    "parent_id": "28",
+    "name": "兰州"
+}, {
+    "id": "469",
+    "sortLetters": "haixi",
+    "parent_id": "29",
+    "name": "海西"
+}, {
+    "id": "468",
+    "sortLetters": "yushu",
+    "parent_id": "29",
+    "name": "玉树"
+}, {
+    "id": "467",
+    "sortLetters": "guoluo",
+    "parent_id": "29",
+    "name": "果洛"
+}, {
+    "id": "466",
+    "sortLetters": "hainan",
+    "parent_id": "29",
+    "name": "海南"
+}, {
+    "id": "465",
+    "sortLetters": "huangnan",
+    "parent_id": "29",
+    "name": "黄南"
+}, {
+    "id": "464",
+    "sortLetters": "haibei",
+    "parent_id": "29",
+    "name": "海北"
+}, {
+    "id": "463",
+    "sortLetters": "haidong",
+    "parent_id": "29",
+    "name": "海东"
+}, {
+    "id": "462",
+    "sortLetters": "xining",
+    "parent_id": "29",
+    "name": "西宁"
+}, {
+    "id": "473",
+    "sortLetters": "guyuan",
+    "parent_id": "30",
+    "name": "固原"
+}, {
+    "id": "472",
+    "sortLetters": "wuzhong",
+    "parent_id": "30",
+    "name": "吴忠"
+}, {
+    "id": "471",
+    "sortLetters": "shizuishan",
+    "parent_id": "30",
+    "name": "石嘴山"
+}, {
+    "id": "470",
+    "sortLetters": "yinchuan",
+    "parent_id": "30",
+    "name": "银川"
+}, {
+    "id": "488",
+    "sortLetters": "aletai",
+    "parent_id": "31",
+    "name": "阿勒泰"
+}, {
+    "id": "487",
+    "sortLetters": "tacheng",
+    "parent_id": "31",
+    "name": "塔城"
+}, {
+    "id": "486",
+    "sortLetters": "yili",
+    "parent_id": "31",
+    "name": "伊犁"
+}, {
+    "id": "485",
+    "sortLetters": "hetian",
+    "parent_id": "31",
+    "name": "和田"
+}, {
+    "id": "484",
+    "sortLetters": "kashi",
+    "parent_id": "31",
+    "name": "喀什"
+}, {
+    "id": "483",
+    "sortLetters": "kezilesu",
+    "parent_id": "31",
+    "name": "克孜勒苏"
+}, {
+    "id": "482",
+    "sortLetters": "akesu",
+    "parent_id": "31",
+    "name": "阿克苏"
+}, {
+    "id": "481",
+    "sortLetters": "bayinguoleng",
+    "parent_id": "31",
+    "name": "巴音郭楞"
+}, {
+    "id": "480",
+    "sortLetters": "boertala",
+    "parent_id": "31",
+    "name": "博尔塔拉"
+}, {
+    "id": "479",
+    "sortLetters": "changji",
+    "parent_id": "31",
+    "name": "昌吉"
+}, {
+    "id": "478",
+    "sortLetters": "hami",
+    "parent_id": "31",
+    "name": "哈密"
+}, {
+    "id": "477",
+    "sortLetters": "tulufan",
+    "parent_id": "31",
+    "name": "吐鲁番"
+}, {
+    "id": "476",
+    "sortLetters": "kelamayi",
+    "parent_id": "31",
+    "name": "克拉玛依"
+}, {
+    "id": "475",
+    "sortLetters": "wulumuqi",
+    "parent_id": "31",
+    "name": "乌鲁木齐"
+}, {
+    "id": "493",
+    "sortLetters": "taibei",
+    "parent_id": "32",
+    "name": "台北"
+}, {
+    "id": "494",
+    "sortLetters": "gaoxiong",
+    "parent_id": "32",
+    "name": "高雄"
+}, {
+    "id": "33",
+    "sortLetters": "xianggang",
+    "parent_id": "32",
+    "name": "香港"
+}, {
+    "id": "34",
+    "sortLetters": "aomen",
+    "parent_id": "32",
+    "name": "澳门"
+}]

@@ -1,0 +1,7 @@
+@font-face {
+      font-family: 'MyWebFont';
+      src: url('file:///android_asset/fonts/font.ttf');
+    }
+    body{
+      font-family:"MyWebFont";
+    }

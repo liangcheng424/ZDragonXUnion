@@ -1,0 +1,1 @@
+include ':app', ':alerview', ':sharesdkmainlib', ':danmuku', ':pulltorefreshlayout', 'zxinglib', ':xrichtext', ':pdfviewpager'

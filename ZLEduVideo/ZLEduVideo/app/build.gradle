@@ -1,0 +1,268 @@
+apply plugin: 'com.android.application'
+apply plugin: 'androidx.navigation.safeargs'
+apply from: '../MobSDK.gradle'
+apply from: 'tinker-support.gradle'
+apply plugin: 'com.ke.gson.plugin'
+android {
+    signingConfigs {
+        config {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('../tuku.keystore')
+            storePassword 'android'
+        }
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion "29.0.2"
+
+    defaultConfig {
+        applicationId "com.zhulong.eduvideo"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 214
+        versionName "2.1.4"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        multiDexEnabled true
+        multiDexKeepProguard file("../tinker_multidexkeep.pro")
+
+        manifestPlaceholders = [
+                JPUSH_PKGNAME: applicationId,
+                JPUSH_APPKEY : "79b0225abe3141e1cb836afb", //JPush上注册的包名对应的appkey.
+                JPUSH_CHANNEL: "developer-default", //暂时填写默认值即可.
+        ]
+        ndk {
+            // 设置支持的SO库架构
+            abiFilters 'armeabi-v7a'//'armeabi', 'x86', 'x86_64', 'arm64-v8a'
+        }
+    }
+    useLibrary 'org.apache.http.legacy'
+
+    //禁止lint打包事检查错误
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            resValue "string", "app_time", "版本时间 : 2020-01-15"
+        }
+        debug {
+            signingConfig signingConfigs.config
+            resValue "string", "app_time", "版本时间 : 2020-01-15"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets.main {
+        jni.srcDirs = []
+        jniLibs.srcDirs = ['libs']//设置目标的so存放路径
+    }
+
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+    maven { url 'https://jitpack.io' }
+}
+
+//apply plugin: 'com.neenbedankt.android-apt'
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testImplementation rootProject.ext.junit
+
+    //noinspection GradleCompatible
+    implementation rootProject.ext.support_v4
+    implementation rootProject.ext.design
+    implementation rootProject.ext.multidex
+    implementation rootProject.ext.constraint
+    implementation rootProject.ext.appcompat
+
+    //cardView 卡牌效果
+    implementation rootProject.ext.cardview
+    //gridlayout
+    implementation rootProject.ext.gridlayout
+
+    //AlertView Dialog样式
+    implementation project(':alerview')
+
+    //更新
+    implementation 'com.teprinciple:updateapputils:1.5.1'
+
+    //弹幕库
+    implementation project(':danmuku')
+
+    //乐视Sdk
+
+    //    implementation project(':lecloudsdk')
+
+    //    api project(':lecloudskin')
+    implementation project(':pulltorefreshlayout')
+    //支付宝支付
+    implementation files('libs/alipaySdk-15.6.4-20190611174359.aar')
+    implementation files('libs/mta-sdk-1.6.2.jar')
+
+    //    implementation files('libs/AMap_Location_V2.7.0_20160726.jar')
+    implementation files('libs/libammsdk.jar')
+    implementation files('libs/sunjce_provider.jar')
+
+    //CCSDK
+    implementation files('libs/tbs_sdk_thirdapp_v3.1.0.1034_43100_sharewithdownload_obfs_20170301_182143.jar')
+    implementation files('libs/dwlivesdk.jar')
+    implementation files('libs/dwpush.jar')
+    implementation files('libs/libjingle_peerconnection.jar')
+    //讯飞语音 Warning：1.0.1137此版本在线包在部分机型ANR
+//    implementation 'com.iflytek:libMsc:1.0.1137'    // 引用MSc.jar,当前最新版本1.0.1137
+
+
+    //拼音
+    implementation files('libs/pinyin4j-2.5.0.jar')
+
+    ////cc直播依赖
+    implementation('io.socket:socket.io-client:0.7.0') {
+        exclude group: 'org.json', module: 'json'
+    }
+    implementation 'com.squareup.okhttp3:okhttp:3.3.1'
+
+    ////cc直播依赖
+    implementation project(':zxinglib')
+
+    //SwipeDelMenuLayout 横向滑动条目Layout
+//    implementation 'com.github.mcxtzhang:SwipeDelMenuLayout:V1.3.0'
+
+    //Xutils
+
+    //implementation 'org.xutils:xutils:3.3.36'
+    implementation 'org.xutils:xutils:3.5.0'
+
+    //ButterKinife
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+    implementation 'com.jakewharton:butterknife:8.8.1'
+
+    //腾讯Bugly
+
+    //    implementation 'com.tencent.bugly:crashreport:2.1.1'
+
+    // Bugly中集成[异常上报]和[热修复]功能
+    implementation 'com.tencent.bugly:crashreport_upgrade:1.3.5'
+    implementation 'com.tencent.tinker:tinker-android-lib:1.9.8'
+    implementation 'com.tencent.bugly:nativecrashreport:3.6.0.1'
+
+    //Logger
+    implementation 'com.orhanobut:logger:1.15'
+
+    //easypermissions
+    implementation 'pub.devrel:easypermissions:0.2.0'
+
+    //FlycoTabLayout
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.0@aar'
+
+    //FlycoRoundView 圆形图片
+    implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
+
+    //圆角图片
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+
+    //极光推送
+    implementation 'cn.jiguang.sdk:jpush:3.3.6'
+    implementation 'cn.jiguang.sdk:jcore:2.1.6'
+
+    //阿里热修复
+    implementation 'com.alipay.euler:andfix:0.5.0@aar'
+
+    //BaseRecyclerViewAdapterHelper
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.22'
+
+    //Gson
+    implementation 'com.google.code.gson:gson:2.8.0'
+
+    //EventBus
+    implementation 'org.greenrobot:eventbus:3.0.0'
+
+    //PhotoView
+    implementation 'com.github.chrisbanes:PhotoView:1.2.7'
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+
+    //Websocket
+    implementation 'org.java-websocket:java-websocket:1.3.3'
+
+    //stickynavlayout
+    implementation 'com.gxz.stickynavlayout:library:1.3.2'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    //内存泄漏检测
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+
+    //权限处理
+    implementation 'com.yanzhenjie:permission:1.1.2'
+
+    //StatusBarUtils 透明状态栏
+    implementation 'com.jaeger.statusbarutil:library:1.4.0'
+    implementation files('libs/zip4j_1.3.2.jar')
+
+    //    implementation 'com.github.sendtion:XRichText:1.3'
+
+    //  原生编辑器
+    implementation project(path: ':xrichtext')
+
+    //右滑关闭Activity
+    implementation 'cn.bingoogolapple:bga-swipebacklayout:1.1.9@aar'
+
+    //页面预加载框架
+    implementation 'com.billy.android:pre-loader:2.0.1'
+    def nav_version = '1.0.0-alpha02'//慎重升级，升级后会导致视频播放页返回无效
+    implementation "android.arch.navigation:navigation-fragment:$nav_version"
+    implementation "android.arch.navigation:navigation-ui:$nav_version"
+    implementation 'org.jetbrains:annotations-java5:15.0'
+
+    //lifecycle
+    implementation 'android.arch.lifecycle:extensions:1.1.1'
+    implementation 'android.arch.lifecycle:viewmodel:1.1.1'
+
+    //图片压缩
+    implementation 'top.zibin:Luban:1.1.8'
+
+    //魔窗
+    implementation ('cn.magicwindow:MagicWindowSDK:4.3.190418'){
+        exclude group: 'com.tencent.tinker', module: 'tinker-ziputils'
+    }
+
+    //PdfView
+    //注释PhotoView防止冲突，不用此库时需取消注释PhotoView
+//    implementation 'es.voghdev.pdfviewpager:library:1.0.5'
+    implementation project(path: ':pdfviewpager')
+
+    //京东支付
+    implementation files('libs/jdPaySDK_Android_JDMall.aar')
+
+    //上拉下拉组件
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.4'
+
+    //Rar解压
+    implementation 'com.github.junrar:junrar:4.0.0'
+
+    //stetho调试
+    implementation 'com.facebook.stetho:stetho:1.5.1'
+
+}

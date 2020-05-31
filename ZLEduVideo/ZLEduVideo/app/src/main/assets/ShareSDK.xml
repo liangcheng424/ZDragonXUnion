@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DevInfor>
+<SinaWeibo Id="1" SortId="1" AppKey="918914443" AppSecret="a915436823e270d8a30874844b6d21aa" ShareByAppClient="true" Enable="true" RedirectUrl="http://edu.zhulong.com" />
+<TencentWeibo Id="2" SortId="2" AppKey="1105712307" AppSecret="ab0a35f52a690af640b46e5687615870" Enable="true" RedirectUri="http://photo.zhulong.com" />
+<Douban Enable="false" />
+<QZone Id="3" SortId="3" AppId="1105712307" AppKey="JrFqzftdwJeUq9fj" ShareByAppClient="true" Enable="true" />
+<Renren Enable="false" />
+<KaiXin Enable="false" />
+<Facebook Enable="false" />
+<Twitter Enable="false" />
+<Evernote Enable="false" />
+<FourSquare Enable="false" />
+<GooglePlus Enable="false" />
+<Instagram Enable="false" />
+<LinkedIn Enable="false" />
+<Tumblr Enable="false" />
+<Email Enable="false" />
+<ShortMessage Enable="false" />
+<Wechat Id="4" SortId="4" AppId="wx4b6c402fee6860c8" AppKey="1278977f2848ee16708c656f66abf35a" ShareByAppClient="true" Enable="true" />
+<WechatMoments Id="5" SortId="5" AppId="wx4b6c402fee6860c8" AppKey="1278977f2848ee16708c656f66abf35a" ShareByAppClient="true" Enable="true" />
+<QQ Id="6" SortId="6" AppId="1105712307" AppKey="JrFqzftdwJeUq9fj" ShareByAppClient="true" Enable="true" />
+<Instapaper Enable="false" />
+<Pocket Enable="false" />
+<YouDao Enable="false" />
+<Pinterest Enable="false" />
+<Flickr Enable="false" />
+<Dropbox Enable="false" />
+<VKontakte Enable="false" />
+<WechatFavorite Enable="false" />
+<Yixin Enable="false" />
+<YixinMoments Enable="false" />
+<Mingdao Enable="false" />
+<Line Enable="false" />
+<WhatsApp Enable="false" />
+<KakaoTalk Enable="false" />
+<KakaoStory Enable="false" />
+<FacebookMessenger Enable="false" />
+<Alipay Enable="false" />
+<AlipayMoments Enable="false" />
+<Dingding Enable="false" />
+<Youtube Enable="false" />
+<Meipai Enable="false" />
+<Telegram Enable="false" />
+<Cmcc Enable="false" />
+<Reddit Enable="false" />
+<Telecom Enable="false" />
+<Accountkit Enable="false" />
+<Douyin Enable="false" />
+<Wework Enable="false" />
+<HWAccount Enable="false" />
+<Oasis Enable="false" />
+<XMAccount Enable="false" />
+<SnapChat Enable="false" />
+<Kuaishou Enable="false" />
+<Littleredbook Enable="false" />
+<Watermelonvideo Enable="false" />
+</DevInfor>
